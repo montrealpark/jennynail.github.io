@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>JennyNail</title>
+		<link rel="stylesheet" type="text/css" href="./css/js.css">
+		<link rel="Shortcut Icon" href="./img/hmlogo.png" type="image/x-icon">
+		
+	<script src="./js/new.js"></script>
+	</head>
+
+
+
+  <body>
+    <div class="navbar">
+      <a class="title" href="./Home.html">
+        <img src="./img/jennynails.png">
+      </a>
+      <ul class="menu">
+        <a href="./Home.html">Home</a>
+        <a href="./Login.html">Log in</a>
+		<a href="./Gallery.html">Gallery</a>
+        <a href="./Shopping.html">Shopping</a>
+		<a href="./Invoice.html">Invoice</a>
+        <a href="./Log out.html">Log out</a>
+      </ul>
+    </div>
+	
+	
+	<input id="searchbar" onkeyup="search_shopping()" type="text"
+		name="search" placeholder="Search Shoppings...">	
+	
+	
+    <p id="new">Our New Products</p>
+    <div class="products_container">
+      <a class="products" href="#">
+        <img src="./img/love2.jpg">
+        <p class="name">Love Nail</p>
+        <p class="prise">49,000</p>
+      </a>
+      <a class="products" href="#">
+        <img src="./img/cloud.jpg">
+        <p class="name">Cloud Nail</p>
+        <p class="prise">89,000</p>
+      </a>
+      <a class="products" href="#">
+        <img src="./img/fraise2.jpg">
+        <p class="name">Fraise Nail</p>
+        <p class="prise">69,000</p>
+      </a>
+      <a class="products" href="#">
+        <img src="./img/ocean.jpg">
+        <p class="name">Ocean Nail</p>
+        <p class="prise">79,000</p>
+      </a>
+      <a class="products" href="#">
+        <img src="./img/blue2.jpg">
+        <p class="name">Blue Pedi</p>
+        <p class="prise">29,000</p>
+      </a>
+      <a class="products" href="#">
+        <img src="./img/smile.jpg">
+        <p class="name">Smile Pedi</p>
+        <p class="prise">99,000</p>
+      </a>
+      <a class="products" href="#">
+        <img src="./img/magic2.jpg">
+        <p class="name">Magic Pedi</p>
+        <p class="prise">39,000</p>
+      </a>
+      <a class="products" href="#">
+        <img src="./img/midnight.jpg">
+        <p class="name">Midnight Pedi</p>
+        <p class="prise">99,000</p>
+      </a>
+      <a class="products" href="#">
+        <img src="./img/plum.jpg">
+        <p class="name">Plum Nail</p>
+        <p class="prise">79,000</p>
+      </a>
+    </div>
+    
+	
+	<div class="clearfix"width=100%></div>
+    <div class="footer_container">
+      <div class="footer">
+        <a href="https://www.facebook.com/"><img src="./img/facebook.png" width="15px"></a>
+        <a href="https://www.instagram.com/montrealpark/"><img src="./img/instagram.png" width="23px"></a>
+        <a href="https://twitter.com/"><img src="./img/twitter.png" width="25px"></a>
+			<p><center>Copyright &copy; 2022 Jenny Nail</center></p>
+      </div>
+    </div>
+	
+	
+		
+  </body>
+
+</html>
+
+
